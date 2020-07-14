@@ -11,7 +11,7 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: auto;
 }
 
 header {
@@ -91,10 +91,31 @@ button:not(:disabled) {
 
 /* media Query */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 754px) and (min-width: 285px) {
     .phone {
         text-align: center;
     }
+    .phone img {
+        position: relative;
+        bottom: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+    .hero {
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto !important;
+    }
+    .palm-view-hero {
+        margin-top: 50px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .phone img {
         position: relative;
         bottom: -20px;
@@ -107,7 +128,10 @@ button:not(:disabled) {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 750px;
+        height: auto;
+    }
+    .phone {
+        text-align: center;
     }
     .palm-view-hero {
         margin-top: 50px;
