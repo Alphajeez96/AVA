@@ -87,3 +87,30 @@ button:not(:disabled) {
     background: #F9F9F9;
     border-radius: 5px 0px 0px 5px;
 }
+
+
+/* media Query */
+
+@media screen and (max-width: 576px) {
+    .phone {
+        text-align: center;
+    }
+    .phone img {
+        position: relative;
+        bottom: -20px;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .hero {
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 750px;
+    }
+    .palm-view-hero {
+        margin-top: 50px;
+        color: white;
+    }
+}
