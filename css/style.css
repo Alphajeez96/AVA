@@ -96,7 +96,7 @@ button:not(:disabled) {
 }
 
 .caption p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: #999999;
 }
@@ -112,6 +112,6 @@ button:not(:disabled) {
 }
 
 .slide__caption p {
-    font-size: 18px;
+    font-size: 16px;
     color: #999999;
 }
