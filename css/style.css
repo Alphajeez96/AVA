@@ -109,6 +109,7 @@ button:not(:disabled) {
     line-height: 40px;
     text-transform: uppercase;
     color: #333333;
+    margin-top: 200px;
 }
 
 .slide__caption p {
