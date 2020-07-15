@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 html {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -6,7 +7,7 @@ html {
 }
 
 .hero {
-    background: rgba(0, 0, 0, 0.8);
+    background: url('../Assets/general/Group 321.png');
     border-radius: 0px;
     background-position: center;
     background-size: cover;
@@ -18,46 +19,39 @@ header {
     width: 100%;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
-    color: white;
-}
-
-.nav-item a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    letter-spacing: 0.045em;
-    font-size: 14px;
-    font-weight: 300;
-}
-
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
 button:not(:disabled) {
-    /* border: 1px solid #9C410E; */
     color: black;
     background: #FFFFFF;
 }
 
 .palm-view-hero {
-    margin-top: 150px;
-    color: white;
+    margin-top: 100px;
+    color: #333333;
+}
+
+.palm-view-hero h1 {
+    font-family: 'Spectral', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    color: #333333;
 }
 
 .phone img {
     position: relative;
-    bottom: 150px;
-    height: 90vh;
-    object-fit: cover;
+    bottom: 150px
 }
 
-.palm-view-hero h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    color: #FFFFFF;
-    font-size: 46px;
-    line-height: 55px;
-    letter-spacing: 1px;
+.palm-view-hero p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
 }
 
 .input-group>.input-group-append>.btn,
@@ -86,55 +80,4 @@ button:not(:disabled) {
     border-bottom-right-radius: 0;
     background: #F9F9F9;
     border-radius: 5px 0px 0px 5px;
-}
-
-
-/* media Query */
-
-@media screen and (max-width: 754px) and (min-width: 285px) {
-    .phone {
-        text-align: center;
-    }
-    .phone img {
-        position: relative;
-        bottom: 200px;
-        height: auto;
-        object-fit: cover;
-    }
-    .hero {
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 0px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto !important;
-    }
-    .palm-view-hero {
-        margin-top: 50px;
-        color: white;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .phone img {
-        position: relative;
-        bottom: -20px;
-        height: 70vh;
-        object-fit: cover;
-    }
-    .hero {
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 0px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;
-    }
-    .phone {
-        text-align: center;
-    }
-    .palm-view-hero {
-        margin-top: 50px;
-        color: white;
-    }
 }
