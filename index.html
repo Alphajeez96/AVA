@@ -123,9 +123,51 @@
                 </div>
             </main>
         </section>
-
-
     </section>
+
+    <script src="./janpaepke-ScrollMagic-1b717bf/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script>
+        (function() {
+            let scene;
+            // Init ScrollMagic
+            var controller = new ScrollMagic.Controller();
+
+            // Run through all sections
+            let items = document.querySelectorAll("section");
+
+            items.forEach(function(element, index) {
+                let height = element.clientHeight; //height of current element
+                scene = new ScrollMagic.Scene({
+                        duration: 400,
+                        triggerElement: element,
+                        triggerHook: 0,
+                        reverse: true
+                    })
+                    .on("enter leave", function() {
+                        let image = document.getElementById("img" + (index + 1));
+                        console.log(image);
+                        if (image.classList.contains("fadeOut")) {
+                            image.classList.remove("fadeOut");
+                            image.classList.add("fadeIn");
+                        } else {
+                            image.classList.remove("fadeIn");
+                            image.classList.add("fadeOut");
+                        }
+                    })
+                    .addIndicators({
+                        name: " - begin "
+                    }) // Testing
+                    .addTo(controller);
+            });
+
+            // Scene duration on resize
+            // Currently resets page to update duration. Hacky?
+            window.addEventListener("resize", function() {
+                //window.location.reload(false); // Codepen hates this. Just refreshes page.
+            });
+
+        })();
+    </script>
 </body>
 
 </html>
