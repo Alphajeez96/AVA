@@ -37,8 +37,7 @@ button:not(:disabled) {
     font-weight: normal;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
+    font-size: 46px;
     color: #333333;
 }
 
@@ -80,4 +79,39 @@ button:not(:disabled) {
     border-bottom-right-radius: 0;
     background: #F9F9F9;
     border-radius: 5px 0px 0px 5px;
+}
+
+.app__features {
+    text-align: center;
+}
+
+.caption h4 {
+    font-family: 'Spectral', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.caption p {
+    font-size: 18px;
+    text-align: center;
+    color: #999999;
+}
+
+.slide__caption h4 {
+    font-family: 'Spectral', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.slide__caption p {
+    font-size: 18px;
+    color: #999999;
 }
