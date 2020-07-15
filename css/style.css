@@ -133,6 +133,7 @@ button:not(:disabled) {
 .adhd {
     background: #F8F9FB;
     border-radius: 0px;
+    padding-bottom: 20px;
 }
 
 div .count {
