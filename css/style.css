@@ -175,6 +175,7 @@ div .count {
 .notify {
     background: #F8F9FB;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .notification h2 {
@@ -183,6 +184,10 @@ div .count {
     line-height: 35px;
     text-align: center;
     color: #333333;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 40px;
+}
+
+.f {
+    margin: auto;
 }
