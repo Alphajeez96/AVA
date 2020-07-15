@@ -191,3 +191,85 @@ div .count {
 .f {
     margin: auto;
 }
+
+.foot {
+    background: #1B2436;
+    color: white;
+    padding: 5px 0px 5px 0px;
+}
+
+.footer__credit p {
+    font-family: 'Karla', sans-serif;
+    padding-top: 20px;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+a :active {
+    color: white
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a[tabindex]:focus {
+    color: white;
+    outline: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 576px) {
+    .hero {
+        background: none;
+        border-radius: 0px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    .phone img {
+        display: none;
+    }
+    .palm-view-hero h1 {
+        font-family: 'Spectral', serif;
+        font-weight: normal;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        color: #333333;
+    }
+    .palm-view-hero {
+        margin-top: 30px;
+        color: #333333;
+    }
+    .palm-view-hero p {
+        font-family: 'Karla', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+    }
+    .p {
+        padding: 0;
+    }
+    .p p {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    .notification h2 {
+        font-size: 17px;
+        line-height: 25px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
