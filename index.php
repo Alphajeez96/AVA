@@ -1,32 +1,6 @@
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/loader.css"> -->
-    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <title>AVA -</title>
-</head>
+<?php 
+include('./includes/header.php')
+?>
 
 <body>
     <div class="wrapper">
@@ -166,7 +140,7 @@
                             <div class="row">
                                 <div class="col-2 count" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="1000">
                                     <h5 class="pt-1">01</h5>
                                 </div>
                                 <div class="col-6">
@@ -180,7 +154,7 @@
                             <div class="row">
                                 <div class="col-2 count" data-aos="flip-right"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="1000" data-aos-delay="500">
                                     <h5 class="pt-1">02</h5>
                                 </div>
                                 <div class="col-6">
@@ -194,7 +168,9 @@
                     <div class="row">
                         <div class="col-md-6  my-5">
                             <div class="row">
-                                <div class="col-2 count">
+                                <div class="col-2 count"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" data-aos-delay="700">
                                     <h5 class="pt-1">03</h5>
                                 </div>
                                 <div class="col-6">
@@ -206,7 +182,9 @@
 
                         <div class="col-md-6 my-5">
                             <div class="row">
-                                <div class="col-2 count">
+                                <div class="col-2 count"  data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" data-aos-delay="900">
                                     <h5 class="pt-1">04</h5>
                                 </div>
                                 <div class="col-6">
@@ -222,37 +200,7 @@
             <!-- screenshots here -->
             <section class="screenshots">
                 <div class="container">
-                <section>
-                <div class="grid-12  trigger1">
-                    <h2 class="position-h2 capion"> Screenshots</h2>
-                </div>
-            </section>
-            <section>
-                <div class="trigger2">
-                    <div class="iphone-image-wrapper">
-                        <div class="iphone1-text">
-                            <p>iPhone Xs Max</p>
-                            <p>6.5" dsiplay</p>
-                        </div>
-                        <div class="iphone-image iphone1">
-                            <div class="inner-phone">
-                                <img class="iphone1-img" src="img/iphone-1.png" alt="">
-                                <img class="iphone-stick" src="img/iphone-3.png" alt="">
-                                <img class="iphone1-img-behind" src="img/iphone-left.png" alt=""> </div>
-                        </div>
-                        <div class="iphone-image iphone2">
-                            <div class="inner-phone">
-                                <img class="iphone2-img" src="img/iphone-1.png" alt="">
-                                <img class="iphone2-img-behind" src="img/iphone-right.png" alt="">
-                            </div>
-                        </div>
-                        <div class="iphone2-text">
-                            <p>iPhone Xs Max</p>
-                            <p>5.8" display</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                
                     <!-- <div class="app__features">
                         <div class="caption pt-5">
                             <h4>Screenshots </h4>
@@ -282,9 +230,11 @@
                     <div class="notification">
                         <h2>Be the first to get notified when ADHD Virtual Assistant is launched <br> online.</h2>
                         <div class="col-md-6 col-lg-6 f">
-                            <form method="POST" action="./process.php">
-                                <div class="input-group mt-4">
-                                    <input type="email" class="form-control" name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
+                            <form  class="needs-validation" method="POST" action="./process.php">
+                                <div class="input-group mt-4" >
+                                   
+                                    <input type="email" class="form-control"  name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
+    
                                     <div class="input-group-append">
                                         <button class="btn btn-outline" value="submit" type="submit">NOTIFY ME</button>
                                     </div>
@@ -298,8 +248,9 @@
             </section>
 
             <!-- footer section here -->
-            <section class="foot">
-                <footer>
+            <section class="foot" >
+                <div >
+                <footer >
                     <div class="container">
                         <div class="row">
                             <div class="col-md-2">
@@ -314,47 +265,13 @@
                         </div>
                     </div>
                 </footer>
+</div>
             </section>
             </div>
         </div>
-
-        <!-- <script src="./janpaepke-ScrollMagic-1b717bf/scrollmagic/uncompressed/ScrollMagic.js"></script> -->
-        
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script> -->
-   
-
-        <script src="https://code.jquery.com/jquery-1.11.1.min.js "></script>
-        <script src="https://scrollmagic.io/scrollmagic/uncompressed/ScrollMagic.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
-        <script src="./js/intersect.js"></script>
-        <script src="./js/main.js"></script>
-        <script>
-            $(document).ready(function() {
-                setTimeout(function() {
-                    $('.wrapper').addClass('loaded');
-
-                }, 3000);
-            });
-
-
-
-            jQuery(function() {
-
-                $(window).load(function() {
-
-                    $('.wrapper').removeClass('preload');
-
-                });
-
-            });
-        </script>
-        <script>
-    AOS.init();
-  </script>
+<?php
+include('./includes/scripts.php')
+?>
 </body>
 
 </html>

@@ -26,24 +26,11 @@ VALUES ('$email')";
 
 if (mysqli_query($conn, $sql)) {
   // echo "New record created successfully";
-  echo '
-  <script type="text/javascript">
-  
-  $(document).ready(function(){
-  
-    swal({
-      position: "top-end",
-      type: "success",
-      title: "Your work has been saved",
-      showConfirmButton: false,
-      timer: 1500
-    })
-  });
-  
-  </script>
-  ';
-
-  header("location: index.php");
+ 
+  echo '<script type="text/javascript">
+  swal("", "บันทึกข้อมูลเรียบร้อยแล้ว", "success");
+  </script>';
+  // header("location: index.php");
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
