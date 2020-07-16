@@ -12,7 +12,7 @@ var controller = new ScrollMagic.Controller();
 
 var scene1 = new ScrollMagic.Scene({
     triggerElement: ".trigger1",
-    duration: "100%",
+    duration: "0%",
     triggerHook: 0,
 })
 

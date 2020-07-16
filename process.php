@@ -1,9 +1,11 @@
 <?php
 $email =$_POST['email'];
+
+//Filter email
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
-mysql://be2cfa79c3c772:1e3d24ce@us-cdbr-east-02.cleardb.com/heroku_03515f5148d504d?reconnect=true   
 
+//Validate Email
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	echo("$email is a valid email address");
 
@@ -23,7 +25,25 @@ $sql = "INSERT INTO users (user_email)
 VALUES ('$email')";
 
 if (mysqli_query($conn, $sql)) {
-  echo "New record created successfully";
+  // echo "New record created successfully";
+  echo '
+  <script type="text/javascript">
+  
+  $(document).ready(function(){
+  
+    swal({
+      position: "top-end",
+      type: "success",
+      title: "Your work has been saved",
+      showConfirmButton: false,
+      timer: 1500
+    })
+  });
+  
+  </script>
+  ';
+
+  header("location: index.php");
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

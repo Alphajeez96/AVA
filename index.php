@@ -12,14 +12,14 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
 
                 <div class="container">
                     <div class="row palm-view-hero ">
-                        <div class="col-md-5 col-lg-5 ">
+                        <div class="col-md-5 col-lg-5 " data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700" data-aos-anchor-placement="center-bottom" >
                             <h1> Tired of forgetting schedules?</h1>
                             <p class="mt-3">Say Goodbye to attention difficulty, limited attention and <br> impulsiveness. An app made specially for you. <br> Be the first to know when we launch</p>
                             <div>
@@ -86,7 +86,7 @@
                         <div class="col-md-1"></div>
                         <section class="phone">
                             <div>
-                                <div class="col-md-6 phone col-lg-6">
+                                <div class="col-md-6 phone col-lg-6" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
                                     <img src="./Assets/general/Hero Image (3).png" alt="">
                                 </div>
                             </div>
@@ -164,7 +164,9 @@
                     <div class="row mt-5 ">
                         <div class="col-md-6 my-5">
                             <div class="row">
-                                <div class="col-2 count">
+                                <div class="col-2 count" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                                     <h5 class="pt-1">01</h5>
                                 </div>
                                 <div class="col-6">
@@ -176,7 +178,9 @@
 
                         <div class="col-md-6 my-5">
                             <div class="row">
-                                <div class="col-2 count">
+                                <div class="col-2 count" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                                     <h5 class="pt-1">02</h5>
                                 </div>
                                 <div class="col-6">
@@ -216,36 +220,13 @@
             </section>
 
             <!-- screenshots here -->
-            <!-- <section class="screenshots">
+            <section class="screenshots">
                 <div class="container">
-                    <div class="app__features">
-                        <div class="caption pt-5">
-                            <h4>Screenshots </h4>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./Assets/screenshot/screen 1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./Assets/screenshot/screen2.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./Assets/screenshot/screen3.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- HEADER logo-->
-            <section>
-                <div class="grid-12 trigger1">
-                    <h2 class="position-h2"> Screenshots</h2>
+                <section>
+                <div class="grid-12  trigger1">
+                    <h2 class="position-h2 capion"> Screenshots</h2>
                 </div>
             </section>
-
-
-
             <section>
                 <div class="trigger2">
                     <div class="iphone-image-wrapper">
@@ -272,6 +253,27 @@
                     </div>
                 </div>
             </section>
+                    <!-- <div class="app__features">
+                        <div class="caption pt-5">
+                            <h4>Screenshots </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./Assets/screenshot/screen 1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./Assets/screenshot/screen2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./Assets/screenshot/screen3.png" class="img-fluid" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <!-- HEADER logo-->
+    
 
             <!-- Notification section here -->
             <section class="notify">
@@ -317,6 +319,10 @@
         </div>
 
         <!-- <script src="./janpaepke-ScrollMagic-1b717bf/scrollmagic/uncompressed/ScrollMagic.js"></script> -->
+        
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script> -->
+   
 
         <script src="https://code.jquery.com/jquery-1.11.1.min.js "></script>
         <script src="https://scrollmagic.io/scrollmagic/uncompressed/ScrollMagic.js"></script>
@@ -346,6 +352,9 @@
 
             });
         </script>
+        <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
