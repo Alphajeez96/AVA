@@ -1,4 +1,5 @@
 $(function() {
+
     var controller = new ScrollMagic.Controller();
 
     //This triggers img 1

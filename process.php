@@ -1,4 +1,6 @@
 <?php
+include('./includes/scripts.php');
+
 $email =$_POST['email'];
 
 //Filter email
@@ -26,11 +28,21 @@ VALUES ('$email')";
 
 if (mysqli_query($conn, $sql)) {
   // echo "New record created successfully";
- 
-  echo '<script type="text/javascript">
-  swal("", "บันทึกข้อมูลเรียบร้อยแล้ว", "success");
-  </script>';
-  // header("location: index.php");
+  ?>
+<script>
+    swal({
+  title: "Good job!",
+  text: "You clicked the button!",
+  icon: "success",
+  button: "Aww yiss!",
+});
+</script>
+<?php
+  header("location: sweetalert.php");
+?>
+
+
+  <?php 
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
@@ -38,6 +50,8 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 }
 else{
-	echo("$email is not a valid email address");
+  echo("$email is not a valid email address");
+
+  
 }
-?>
+
