@@ -2,6 +2,8 @@
 $email =$_POST['email'];
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
+mysql://be2cfa79c3c772:1e3d24ce@us-cdbr-east-02.cleardb.com/heroku_03515f5148d504d?reconnect=true   
+
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	echo("$email is a valid email address");
 
