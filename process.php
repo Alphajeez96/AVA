@@ -5,10 +5,10 @@ $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	echo("$email is a valid email address");
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "users_data";
+$servername = "us-cdbr-east-02.cleardb.com";
+$username = "be2cfa79c3c772";
+$password = "1e3d24ce";
+$dbname = "heroku_03515f5148d504d";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
