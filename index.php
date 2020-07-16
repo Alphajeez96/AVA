@@ -73,11 +73,11 @@
                             <h1> Tired of forgetting schedules?</h1>
                             <p class="mt-3">Say Goodbye to attention difficulty, limited attention and <br> impulsiveness. An app made specially for you. <br> Be the first to know when we launch</p>
                             <div>
-                                <form method="POST" action="">
+                                <form method="POST" action="./process.php">
                                     <div class="input-group mt-4">
-                                        <input type="text" class="form-control" placeholder="Enter email address" aria-describedby="basic-addon2">
+                                        <input type="email" class="form-control"  placeholder="Enter email address" aria-describedby="basic-addon2" name='email'>
                                         <div class="input-group-append">
-                                            <button class="btn btn-outline" type="button">NOTIFY ME</button>
+                                            <button class="btn btn-outline" value="submit" type="submit">NOTIFY ME</button>
                                         </div>
                                     </div>
                                 </form>
@@ -216,7 +216,7 @@
             </section>
 
             <!-- screenshots here -->
-            <section class="screenshots">
+            <!-- <section class="screenshots">
                 <div class="container">
                     <div class="app__features">
                         <div class="caption pt-5">
@@ -236,6 +236,41 @@
                         </div>
                     </div>
                 </div>
+            </section> -->
+            <!-- HEADER logo-->
+            <section>
+                <div class="grid-12 trigger1">
+                    <h2 class="position-h2"> Screenshots</h2>
+                </div>
+            </section>
+
+
+
+            <section>
+                <div class="trigger2">
+                    <div class="iphone-image-wrapper">
+                        <div class="iphone1-text">
+                            <p>iPhone Xs Max</p>
+                            <p>6.5" dsiplay</p>
+                        </div>
+                        <div class="iphone-image iphone1">
+                            <div class="inner-phone">
+                                <img class="iphone1-img" src="img/iphone-1.png" alt="">
+                                <img class="iphone-stick" src="img/iphone-3.png" alt="">
+                                <img class="iphone1-img-behind" src="img/iphone-left.png" alt=""> </div>
+                        </div>
+                        <div class="iphone-image iphone2">
+                            <div class="inner-phone">
+                                <img class="iphone2-img" src="img/iphone-1.png" alt="">
+                                <img class="iphone2-img-behind" src="img/iphone-right.png" alt="">
+                            </div>
+                        </div>
+                        <div class="iphone2-text">
+                            <p>iPhone Xs Max</p>
+                            <p>5.8" display</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Notification section here -->
@@ -245,11 +280,11 @@
                     <div class="notification">
                         <h2>Be the first to get notified when ADHD Virtual Assistant is launched <br> online.</h2>
                         <div class="col-md-6 col-lg-6 f">
-                            <form method="POST" action="">
+                            <form method="POST" action="./process.php">
                                 <div class="input-group mt-4">
-                                    <input type="text" class="form-control" placeholder="Enter email address" aria-describedby="basic-addon2">
+                                    <input type="email" class="form-control" name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline" type="button">NOTIFY ME</button>
+                                        <button class="btn btn-outline" value="submit" type="submit">NOTIFY ME</button>
                                     </div>
                                 </div>
                             </form>
@@ -290,6 +325,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
         <script src="./js/intersect.js"></script>
+        <script src="./js/main.js"></script>
         <script>
             $(document).ready(function() {
                 setTimeout(function() {
