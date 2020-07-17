@@ -74,6 +74,20 @@ button:not(:disabled) {
     color: #FFFFFF;
 }
 
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #F9F9F9;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .input-group>.custom-select:not(:last-child),
 .input-group>.form-control:not(:last-child) {
     border-top-right-radius: 0;
@@ -139,6 +153,11 @@ div .count {
     border-radius: 7px;
 }
 
+.center__div {
+    margin: auto;
+    width: 50%;
+}
+
 .count h5 {
     font-family: 'Volkhov', serif;
     font-style: normal;
@@ -148,6 +167,26 @@ div .count {
     text-align: center;
     color: #083E9E;
     justify-content: center;
+}
+
+.headers {
+    margin: auto !important;
+}
+
+.headers h4 {
+    margin-bottom: 20px;
+    font-family: 'Spectral', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.headers p {
+    font-size: 16px;
+    color: #999999;
+    font-family: 'Karla', sans-serif;
 }
 
 .why__header {

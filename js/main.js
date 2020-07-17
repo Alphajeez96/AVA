@@ -52,33 +52,37 @@
 //     .addTo(controller);
 
 
-window.addEventListener('scroll', function() {
-    let y = pageYOffset
-        // = document.getElementById('tag').innerText = `Offset ${y}`
-    console.log(y)
+// window.addEventListener('scroll', function() {
+//     let y = pageYOffset
+//         // = document.getElementById('tag').innerText = `Offset ${y}`
+//     console.log(y)
+//     if (y = 60) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
+//         document.getElementById('img').classList.add("fixed");
+//     }
 
-    if (y > 700) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
-        document.getElementById('img').classList.add("fixed");
-    }
-    if (y < 700) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
-        document.getElementById('img').classList.remove("fixed");
-    }
 
-    if (y > 1000) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-    }
+//     if (y > 700) {
 
-    if (y > 1400) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-    }
-    if (y > 1700) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-    }
-    if (y > 2400) {
-        document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-        document.getElementById('img').classList.remove("fixed");
-    }
+//     }
+//     if (y < 700) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
+//         document.getElementById('img').classList.remove("fixed");
+//     }
 
-})
+//     if (y > 1000) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+//     }
+
+//     if (y > 1400) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+//     }
+//     if (y > 1700) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+//     }
+//     if (y > 2400) {
+//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+//         document.getElementById('img').classList.remove("fixed");
+//     }
+
+// })
