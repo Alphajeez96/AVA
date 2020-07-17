@@ -256,7 +256,7 @@
                     </div>
                     <!-- screen 1 -->
                     <div class="row" >
-                        <div class="col-md-7" >
+                        <div class="col-md-7 " style='text-align:center' >
                             <img src="./Assets/screenshot/1.png" alt="">
                         </div>
                         <div class="col-md-5 headers">
@@ -408,9 +408,9 @@
             </section>
 
             <!-- screenshots here -->
-            <sectio class="screenshots">
+            <!-- <section class="screenshots">
                 <div class="container">
-                    <!-- <div class="row"> -->
+            
                     <div class="center">
                         <div><img src="./Assets/carousel/1.png" alt=""></div>
                         <div><img src="./Assets/carousel/1.png" alt=""></div>
@@ -418,9 +418,9 @@
                         <div><img src="./Assets/carousel/1.png" alt=""></div>
                         <div><img src="./Assets/carousel/1.png" alt=""></div>
                     </div>
-                    <!-- </div> -->
+               
                 </div>
-            </sectio>
+            </section> -->
             <!-- HEADER logo-->
 
 

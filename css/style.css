@@ -314,6 +314,9 @@ a[tabindex]:focus {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 576px) {
+    .img__center {
+        text-align: center !important;
+    }
     .nav__header {
         background: white;
     }
