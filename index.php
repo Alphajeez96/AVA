@@ -333,7 +333,7 @@
                 <div>
                     <footer>
                         <div class="container">
-                            <div class="row">
+                            <div class="row foot__row">
                                 <div class="col-md-2">
                                     <img src="./Assets/general/Logo (3).png" alt="">
 
@@ -341,8 +341,8 @@
                                 <div class="col-md-4"></div>
 
                                 <div class="col-md-6 footer__credit">
-                                    <p> Designed by <span><a href=#>@Anibe</a> </span>, Coded by <span><a
-                                                href="#">@Alphajeez</a> </span> </p>
+                                    <p> Designed by <span><a href='https://dribbble.com/ojotule'>@Anibe</a> </span>, Coded by <span><a
+                                                href="https://github.com/Alphajeez96">@Alphajeez</a> </span> </p>
                                 </div>
                             </div>
                         </div>

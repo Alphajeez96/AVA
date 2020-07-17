@@ -256,6 +256,7 @@ a[tabindex]:focus {
         background-size: cover;
         background-repeat: no-repeat;
         height: auto;
+        width: 100% !important;
         color: #F7F0FA !important;
     }
     .phone img {
@@ -314,11 +315,14 @@ a[tabindex]:focus {
     .footer__credit p {
         padding-top: 14px;
     }
+    .foot__row {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: none;
+        background-image: url('../Assets/general/1')!important;
         border-radius: 0px;
         background-position: center;
         background-size: cover;
