@@ -29,16 +29,9 @@ VALUES ('$email')";
 if (mysqli_query($conn, $sql)) {
   // echo "New record created successfully";
   ?>
-<script>
-    swal({
-  title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success",
-  button: "Aww yiss!",
-});
-</script>
+
 <?php
-  header("location: sweetalert.php");
+  header("location: index.php");
 ?>
 
 
