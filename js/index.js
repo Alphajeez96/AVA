@@ -1,5 +1,8 @@
-// SWAL FUNCTION HERE
+// Initialize AOS HERE
 AOS.init();
+
+
+// SWAL FUNCTION HERE
 $(function() {
     $("form").submit(function(e) {
         let email2 = $("#email2").val();
@@ -32,6 +35,25 @@ $(function() {
 
         // }
     });
+});
+
+// MAGNIFIC POPUP HERE
+
+$(document).ready(function() {
+
+    $('.rows').magnificPopup({
+        delegate: 'img',
+        type: 'image',
+        closeOnContentClick: true,
+        mainClass: 'mfp-img-mobile',
+        image: {
+            verticalFit: true
+        }
+
+    });
+
+
+
 });
 
 // SUPPOSSEDLY REDUNCTANT
