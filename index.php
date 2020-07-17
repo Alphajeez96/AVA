@@ -75,7 +75,7 @@
 
                 <div class="container">
                     <div class="row palm-view-hero ">
-                        <div class="col-md-5 col-lg-5 " data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 col-lg-5 " data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h1> Tired of forgetting schedules?</h1>
                             <p class="mt-3">Say Goodbye to attention difficulty, limited attention and <br> impulsiveness. An app made specially for you. <br> Be the first to know when we launch
                             </p>
@@ -94,11 +94,11 @@
                         <div class="col-md-1"></div>
                         <section class="phone">
                             <div>
-                                <div class="col-md-6 phone col-lg-6" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
-                                    <img id='test__1' src="./Assets/general/Hero Image (3).png" alt="">
+                                <div class="col-md-6 phone col-lg-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" data-aos-anchor-placement="center-bottom">
+                                    <img id='test__1' src="./Assets/general/Hero Image (5).png" alt="">
                                 </div>
 
-                                <div class="col-md-6 small__phone col-lg-6" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
+                                <div class="col-md-6 small__phone col-lg-6" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" data-aos-anchor-placement="center-bottom">
                                     <img src="./Assets/general/Hero Image (3).png" alt="">
                                 </div>
                             </div>
