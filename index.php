@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <!-- screen 1 -->
-                    <div class="row " >
+                    <div class="rows " >
                         <div class="col-md-7 " style='text-align:center' >
                             <img src="./Assets/screenshot/1.png" alt="">
                         </div>
@@ -266,8 +266,8 @@
                     </div>
 
                     <!-- screen 2 -->
-                    <div class="row increase">
-                        <div class="col-md-5 headers">
+                    <div class="rows increase">
+                        <div class="col-md-5 col-lg-5 col-6 headers">
 
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
@@ -282,7 +282,7 @@
 
 
 
-                    <div class="row">
+                    <div class="rows">
                         <div class="col-md-7" style='text-align:center'>
                             <img src="./Assets/screenshot/3.png" alt="" >
                         </div>
@@ -295,8 +295,8 @@
                     <!-- screen 4  -->
 
 
-                    <div class="row">
-                        <div class="col-md-5 headers">
+                    <div class="rows">
+                        <div class="col-md-5 col-lg-5 col-6 headers">
 
                             <h4>HELPS IN MANAGING YOUR UNIQUENESS</h4>
                             <p>Deriving from your activities and behaviours each day, AVA suggests articles that can help improve a few areas and behaviours that need to be worked on to become a better version of you!</p>
@@ -310,7 +310,7 @@
                     <!-- screen 5 -->
 
 
-                    <div class="row">
+                    <div class="rows">
                         <div class="col-md-7 " style='text-align:center'>
                             <img src="./Assets/screenshot/5.png" alt="">
                         </div>
@@ -324,10 +324,10 @@
                     <!-- screen 6 -->
 
 
-                    <div class="row">
-                        <div class="col-md-5 headers">
+                    <div class="rows">
+                        <div class="col-md-5 col-lg-5 col-6 headers">
 
-                            <h4>GET NOTIFIED WHEN YOU GET DISTRACTED FROM AN ONGOING TASK</h4>
+                            <h4>GET NOTIFIED WHEN YOU GET DISTRACTED</h4>
                             <p>After sensing youv’ve been distracted from an ongoing task by our amazing Artificial intelligence, AVA notifies you to stay on Track.</p>
                         </div>
                         <div class="col-md-3"></div>
