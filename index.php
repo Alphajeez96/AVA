@@ -256,10 +256,10 @@
                     </div>
                     <!-- screen 1 -->
                     <div class="rows " >
-                        <div class="col-md-7 " style='text-align:center' >
+                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/1.png" alt="">
                         </div>
-                        <div class="col-md-5 headers">
+                        <div class="col-md-5 headers"  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
                         </div>
@@ -267,13 +267,13 @@
 
                     <!-- screen 2 -->
                     <div class="rows increase">
-                        <div class="col-md-5 col-lg-5 col-6 headers">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
 
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'>
+                        <div class="col-md-4" style='text-align:center'  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/2.png" alt="" >
                         </div>
                     </div>
@@ -283,10 +283,10 @@
 
 
                     <div class="rows">
-                        <div class="col-md-7" style='text-align:center'>
+                        <div class="col-md-7" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/3.png" alt="" >
                         </div>
-                        <div class="col-md-5 headers">
+                        <div class="col-md-5 headers"  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>KEEP RECORS OF YOUR PRODUCTIVITY</h4>
                             <p>ADHD Assistant helps you keep record of yourproductivity and in turn helps suggest ways to improve and milestones you’ve achieved</p>
                         </div>
@@ -296,13 +296,13 @@
 
 
                     <div class="rows">
-                        <div class="col-md-5 col-lg-5 col-6 headers">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
 
                             <h4>HELPS IN MANAGING YOUR UNIQUENESS</h4>
                             <p>Deriving from your activities and behaviours each day, AVA suggests articles that can help improve a few areas and behaviours that need to be worked on to become a better version of you!</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'>
+                        <div class="col-md-4" style='text-align:center'  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/4.png" alt="">
                         </div>
                     </div>
@@ -311,10 +311,10 @@
 
 
                     <div class="rows">
-                        <div class="col-md-7 " style='text-align:center'>
+                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/5.png" alt="">
                         </div>
-                        <div class="col-md-5 headers">
+                        <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
                             <h4>GET NOTIFIED WHEN YOU PERFORM IMPULSIVE TASKS</h4>
                             <p> With our Artificial Inteligence, ADHD Virtual Assitant would alert you when you tend to make impulsive behaviours like buying repetitive things.</p>
                         </div>
