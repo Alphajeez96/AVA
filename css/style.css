@@ -153,6 +153,10 @@ div .count {
     border-radius: 7px;
 }
 
+.app__screens {
+    display: none;
+}
+
 .center__div {
     margin: auto;
     width: 50%;

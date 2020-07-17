@@ -62,27 +62,27 @@
 //     }
 
 
-//     if (y > 700) {
+if (y > 700) {
 
-//     }
-//     if (y < 700) {
-//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
-//         document.getElementById('img').classList.remove("fixed");
-//     }
+}
+if (y < 700) {
+    document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png';
+    document.getElementById('img').classList.remove("fixed");
+}
 
-//     if (y > 1000) {
-//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-//     }
+if (y > 1000) {
+    document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+}
 
-//     if (y > 1400) {
-//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-//     }
-//     if (y > 1700) {
-//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-//     }
-//     if (y > 2400) {
-//         document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
-//         document.getElementById('img').classList.remove("fixed");
-//     }
+if (y > 1400) {
+    document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+}
+if (y > 1700) {
+    document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+}
+if (y > 2400) {
+    document.getElementById('img').src = ' ./Assets/general/Hero Image (3).png'
+    document.getElementById('img').classList.remove("fixed");
+}
 
-// })
+})
