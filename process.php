@@ -9,7 +9,8 @@ $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
 //Validate Email
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-	echo("$email is a valid email address");
+  echo("$email is a valid email address");
+  header("location: index.php");
 
 $servername = "us-cdbr-east-02.cleardb.com";
 $username = "be2cfa79c3c772";
@@ -45,6 +46,6 @@ mysqli_close($conn);
 else{
   echo("$email is not a valid email address");
 
-  
+  header("location: index.php");
 }
 
