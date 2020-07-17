@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -431,13 +431,13 @@
                         <h2 id='test2'>Be the first to get notified when ADHD Virtual Assistant is launched online.
                         </h2>
                         <div class="col-md-6 col-lg-6 f">
-                            <form  method="POST" action="./process.php">
+                            <form id='form'  method="POST" action="./process.php">
                                 <div class="input-group mt-4">
 
-                                    <input type="email" id='email2' class="form-control" name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
+                                    <input type="email" id='email2' class="form-control" name='email' placeholder="Enter email address" required aria-describedby="basic-addon2">
 
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline" value="submit" type="submit">NOTIFY ME</button>
+                                        <button class="btn btn-outline" id='register' value="submit" type="submit">NOTIFY ME</button>
                                     </div>
                                 </div>
                             </form>
@@ -471,9 +471,59 @@
             </section>
             </div>
         </div>
-
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
         <script src="https://code.jquery.com/jquery-1.11.1.min.js "></script>
+
+              <!--SWAL FUNCTioN  -->
+        <script>
+            $(function(){
+                $('form').submit(function(e){
+
+                // var valid = this.form.checValidity();
+
+                // if(valid){
+
+                    let email = $('#email2').val();
+                    e.preventDefault();
+
+                    $.ajax({
+                type:'POST',
+                url: './process.php',
+                data: $(this).serialize(),
+                success: function(data){
+                    Swal.fire({
+                        'icon': 'success',
+                    'title': '',
+                    'text': data,
+                    'type': 'Success'
+                })
+                
+                },
+                error: function(data){
+                    Swal.fire({
+                    'icon': 'error',
+                    'title': '',
+                    'text': data,
+                    'type': 'error'
+                    })
+                    },
+           
+                    });
+
+                  
+                // }else{
+                   
+     
+  
+                // }
+   
+
+ 
+                });
+                
+      }); 
+        </script>       
+
 
         <script src="./js/main.js"></script>
 
@@ -501,7 +551,7 @@
             AOS.init();
         </script>
 
-        <script>
+        <!-- <script>
             $(document).ready(function() {
 
                 $('.center').slick({
@@ -530,10 +580,10 @@
                 });
 
             });
-        </script>
+        </script> -->
         <script src="./js/main.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
         <!-- <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <script>
@@ -567,35 +617,35 @@ $('.rows').magnificPopup({
 
         <script>
                 $(function() {
-        $('form').submit(function(e) {
+        // $('form').submit(function(e) {
       
-          //prevent default form submission
-          e.preventDefault();
+        //   //prevent default form submission
+        //   e.preventDefault();
       
-         //ajax form submission
-            $.ajax({
-                type: 'POST',
-                url: './process.php',
-                data: $(this).serialize(),
-                success: (message) => {
-                 // add an action to be carried out when submission is successful
-                 document.querySelector('#email').value = '';
-                 document.querySelector('#email2').value = '';
-                 swal("Thank you for registering fellow Zathuran", "You clicked the button!", {
-                  buttons: false,
-                  timer: 3000,
-                });
-                },
-                // add an action to be carried out when submission is successful
-                error: (error) => {
-                  swal("Invaild email/Could not connect to Database", {
-                    buttons: false,
-                    timer: 3000,
-                });
-                }
+        //  //ajax form submission
+        //     $.ajax({
+        //         type: 'POST',
+        //         url: './process.php',
+        //         data: $(this).serialize(),
+        //         success: (message) => {
+        //          // add an action to be carried out when submission is successful
+        //          document.querySelector('#email2').value = '';
+        //          document.querySelector('#email2').value = '';
+        //          swal("Thank you for registering fellow Zathuran", "You clicked the button!", {
+        //           buttons: false,
+        //           timer: 3000,
+        //         });
+        //         },
+        //         // add an action to be carried out when submission is successful
+        //         error: (error) => {
+        //           swal("Invaild email/Could not connect to Database", {
+        //             buttons: false,
+        //             timer: 3000,
+        //         });
+        //         }
                 
-            })
-        }); 
+        //     })
+        // }); 
       })
       $('.pop').magnificPopup({
         type: "image",
