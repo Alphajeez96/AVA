@@ -299,7 +299,8 @@
             .app__features__mobile {
                 display: none;
             }
-            /* .rows {
+            
+            .rows {
                 display: -ms-flexbox;
                 display: flex;
                 -ms-flex-wrap: wrap;
@@ -307,7 +308,7 @@
                 margin-right: -15px;
                 margin-left: -15px;
                 flex-wrap: nowrap;
-            } */
+            }
             /* #img {
     position: fixed;
     top: 400px;
