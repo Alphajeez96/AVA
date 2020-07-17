@@ -311,10 +311,10 @@
 
 
                     <div class="rows">
-                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/5.png" alt="">
                         </div>
-                        <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1400" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>GET NOTIFIED WHEN YOU PERFORM IMPULSIVE TASKS</h4>
                             <p> With our Artificial Inteligence, ADHD Virtual Assitant would alert you when you tend to make impulsive behaviours like buying repetitive things.</p>
                         </div>
@@ -325,13 +325,13 @@
 
 
                     <div class="rows">
-                        <div class="col-md-5 col-lg-5 col-6 headers">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
 
                             <h4>GET NOTIFIED WHEN YOU GET DISTRACTED</h4>
                             <p>After sensing youv’ve been distracted from an ongoing task by our amazing Artificial intelligence, AVA notifies you to stay on Track.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'>
+                        <div class="col-md-4" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/6.png" alt="">
                         </div>
                     </div>
