@@ -304,6 +304,10 @@ a[tabindex]:focus {
     display: none;
 }
 
+.row {
+    flex-wrap: nowrap;
+}
+
 
 /* #img {
     position: fixed;
@@ -316,6 +320,9 @@ a[tabindex]:focus {
 @media screen and (max-width: 576px) {
     .img__center {
         text-align: center !important;
+    }
+    .increase {
+        flex-direction: column-reverse;
     }
     .nav__header {
         background: white;

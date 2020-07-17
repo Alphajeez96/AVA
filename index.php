@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <!-- screen 1 -->
-                    <div class="row" >
+                    <div class="row " >
                         <div class="col-md-7 " style='text-align:center' >
                             <img src="./Assets/screenshot/1.png" alt="">
                         </div>
@@ -266,15 +266,15 @@
                     </div>
 
                     <!-- screen 2 -->
-                    <div class="row">
+                    <div class="row increase">
                         <div class="col-md-5 headers">
 
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4">
-                            <img src="./Assets/screenshot/2.png" alt="">
+                        <div class="col-md-4" style='text-align:center'>
+                            <img src="./Assets/screenshot/2.png" alt="" >
                         </div>
                     </div>
 
@@ -283,8 +283,8 @@
 
 
                     <div class="row">
-                        <div class="col-md-7">
-                            <img src="./Assets/screenshot/3.png" alt="">
+                        <div class="col-md-7" style='text-align:center'>
+                            <img src="./Assets/screenshot/3.png" alt="" >
                         </div>
                         <div class="col-md-5 headers">
                             <h4>KEEP RECORS OF YOUR PRODUCTIVITY</h4>
@@ -302,7 +302,7 @@
                             <p>Deriving from your activities and behaviours each day, AVA suggests articles that can help improve a few areas and behaviours that need to be worked on to become a better version of you!</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" style='text-align:center'>
                             <img src="./Assets/screenshot/4.png" alt="">
                         </div>
                     </div>
@@ -311,7 +311,7 @@
 
 
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-7 " style='text-align:center'>
                             <img src="./Assets/screenshot/5.png" alt="">
                         </div>
                         <div class="col-md-5 headers">
@@ -331,7 +331,7 @@
                             <p>After sensing youv’ve been distracted from an ongoing task by our amazing Artificial intelligence, AVA notifies you to stay on Track.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" style='text-align:center'>
                             <img src="./Assets/screenshot/6.png" alt="">
                         </div>
                     </div>
