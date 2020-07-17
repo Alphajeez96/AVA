@@ -322,6 +322,17 @@
             .mfp-iframe-holder .mfp-close {
                 display: none;
             }
+            
+            img.mfp-img {
+                width: auto !important;
+                /* max-width: 100%; */
+                height: auto !important;
+                display: block;
+                line-height: 0;
+                box-sizing: border-box !important;
+                padding: 52px 52px 40px !important;
+                margin: 15px auto;
+            }
             /* #img {
     position: fixed;
     top: 400px;
