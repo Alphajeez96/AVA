@@ -1,3 +1,5 @@
+// THIS WAS FOR APPLE ANIMATION
+
 // var tlFirstScroll = new TimelineMax();
 
 // tlFirstScroll
@@ -51,7 +53,7 @@
 //     .addIndicators()
 //     .addTo(controller);
 
-
+// THIS WAS FOR STANDBY SCROLLING EFFECT WITH PAGE OFFSET
 // window.addEventListener('scroll', function() {
 //     let y = pageYOffset
 //         // = document.getElementById('tag').innerText = `Offset ${y}`
