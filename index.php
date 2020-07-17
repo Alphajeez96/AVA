@@ -26,7 +26,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -257,10 +257,10 @@
                     </div>
                     <!-- screen 1 -->
                     <div class="rows " >
-                        <div class="col-md-7" style='text-align:center'  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-7" style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h1.png" data-mfp-src="./Assets/screenshot/h1.png" alt="">
                         </div>
-                        <div class="col-md-5 headers"  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 headers"  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="" data-aos-anchor-placement="center-bottom">
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
                         </div>
@@ -268,26 +268,24 @@
 
                     <!-- screen 2 -->
                     <div class="rows increase">
-                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700" data-aos-anchor-placement="center-bottom">
 
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
                             <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-4" style='text-align:center'  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="700" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h2.png" data-mfp-src="./Assets/screenshot/h2.png" alt="" >
                         </div>
                     </div>
 
                     <!-- screen 3 -->
 
-
-
                     <div class="rows">
-                        <div class="col-md-7" style='text-align:center'  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-7" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h3.png" data-mfp-src="./Assets/screenshot/h3.png" alt="" >
                         </div>
-                        <div class="col-md-5 headers"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 headers"  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900" data-aos-anchor-placement="center-bottom">
                             <h4>KEEP RECORS OF YOUR PRODUCTIVITY</h4>
                             <p>ADHD Assistant helps you keep record of yourproductivity and in turn helps suggest ways to improve and milestones you’ve achieved</p>
                         </div>
@@ -297,13 +295,13 @@
 
 
                     <div class="rows">
-                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1100" data-aos-anchor-placement="center-bottom">
 
                             <h4>HELPS IN MANAGING YOUR UNIQUENESS</h4>
                             <p>Deriving from your activities and behaviours each day, AVA suggests articles that can help improve a few areas and behaviours that need to be worked on to become a better version of you!</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-4" style='text-align:center'  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1100" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h4.png" data-mfp-src="./Assets/screenshot/h4.png" alt="">
                         </div>
                     </div>
@@ -312,10 +310,10 @@
 
 
                     <div class="rows">
-                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1300" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h5.png" data-mfp-src="./Assets/screenshot/h5.png" alt="">
                         </div>
-                        <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1300" data-aos-anchor-placement="center-bottom">
                             <h4>GET NOTIFIED WHEN YOU PERFORM IMPULSIVE TASKS</h4>
                             <p> With our Artificial Inteligence, ADHD Virtual Assitant would alert you when you tend to make impulsive behaviours like buying repetitive things.</p>
                         </div>
@@ -326,13 +324,13 @@
 
 
                     <div class="rows">
-                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-5 col-lg-5 col-6 headers"  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1500" data-aos-anchor-placement="center-bottom">
 
                             <h4>GET NOTIFIED WHEN YOU GET DISTRACTED</h4>
                             <p>After sensing youv’ve been distracted from an ongoing task by our amazing Artificial intelligence, AVA notifies you to stay on Track.</p>
                         </div>
                         <div class="col-md-3"></div>
-                        <div class="col-md-4" style='text-align:center'  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1500" data-aos-anchor-placement="center-bottom">
+                        <div class="col-md-4" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1500" data-aos-anchor-placement="center-bottom">
                             <img src="./Assets/screenshot/h6.png" data-mfp-src="./Assets/screenshot/h6.png" alt="">
                         </div>
                     </div>
@@ -349,7 +347,7 @@
                         <div class="caption pt-5">
                             <h4>Why Use ADHD Assistant? </h4>
                             <div class="p">
-                                <p>Fermentum duis egestas non natoque gravida faucibus leo tempor egestas. Eu leo lectus ligula nec malesuada id leo proin pretium. Justo vulputate nunc, ut dictum in bibendum <br> volutpat massa rutrum.</p>
+                                <p>ADHD Virtual Assistant App (AVA) is an app made to help people with this uniqueness and dynamism of human nature. Equiped with and made by some of the best consultants, AVA is the app to use to achieve more.</p>
                             </div>
                         </div>
                     </div>
@@ -433,13 +431,13 @@
                         <h2 id='test2'>Be the first to get notified when ADHD Virtual Assistant is launched online.
                         </h2>
                         <div class="col-md-6 col-lg-6 f">
-                            <form class="needs-validation" method="POST" action="./process.php">
+                            <form  method="POST" action="./process.php">
                                 <div class="input-group mt-4">
 
-                                    <input type="email" class="form-control" name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
+                                    <input type="email" id='email2' class="form-control" name='email' placeholder="Enter email address" aria-describedby="basic-addon2">
 
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline" onclick='change()' value="submit" type="submit">NOTIFY ME</button>
+                                        <button class="btn btn-outline" value="submit" type="submit">NOTIFY ME</button>
                                     </div>
                                 </div>
                             </form>
@@ -565,6 +563,44 @@ $('.rows').magnificPopup({
 
 
 });
+        </script>
+
+        <script>
+                $(function() {
+        $('form').submit(function(e) {
+      
+          //prevent default form submission
+          e.preventDefault();
+      
+         //ajax form submission
+            $.ajax({
+                type: 'POST',
+                url: './process.php',
+                data: $(this).serialize(),
+                success: (message) => {
+                 // add an action to be carried out when submission is successful
+                 document.querySelector('#email').value = '';
+                 document.querySelector('#email2').value = '';
+                 swal("Thank you for registering fellow Zathuran", "You clicked the button!", {
+                  buttons: false,
+                  timer: 3000,
+                });
+                },
+                // add an action to be carried out when submission is successful
+                error: (error) => {
+                  swal("Invaild email/Could not connect to Database", {
+                    buttons: false,
+                    timer: 3000,
+                });
+                }
+                
+            })
+        }); 
+      })
+      $('.pop').magnificPopup({
+        type: "image",
+        closeBtnInside: true /* No effect in comparison to not setting it when set to true */
+    });
         </script>
 </body>
 
