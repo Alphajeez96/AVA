@@ -318,12 +318,9 @@
                 margin: 20px auto;
             }
             
-            .mfp-content #page-content {
-                margin-top: 1em;
-            }
-            
-            .mfp-content #page-content h3 {
-                margin-top: 1em;
+            .mfp-image-holder .mfp-close,
+            .mfp-iframe-holder .mfp-close {
+                display: none;
             }
             /* #img {
     position: fixed;

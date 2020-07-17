@@ -539,10 +539,31 @@
         <!-- <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <script>
-            $('.rows').magnificPopup({
-  delegate: 'img', // child items selector, by clicking on it popup will open
-  type: 'image'
-  // other options
+//             $('.rows').magnificPopup({
+//   delegate: 'img', // child items selector, by clicking on it popup will open
+//   type: 'image',
+//   closeOnContentClick: true,
+// 		mainClass: 'mfp-img-mobile',
+// 		image: {
+// 			verticalFit: true
+// 		}
+  
+// });
+$(document).ready(function() {
+
+$('.rows').magnificPopup({
+    delegate: 'img',
+    type: 'image',
+    closeOnContentClick: true,
+    mainClass: 'mfp-img-mobile',
+    image: {
+        verticalFit: true
+    }
+    
+});
+
+
+
 });
         </script>
 </body>
