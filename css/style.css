@@ -335,7 +335,7 @@ a[tabindex]:focus {
         background: white;
     }
     .hero {
-        background-image: url('../Assets/general/1')!important;
+        background-image: url('../Assets/general/Mobile\ background.png')!important;
         /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
         background-position: center;
         background-size: cover;
