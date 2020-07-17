@@ -34,10 +34,10 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <!-- <div class="wrapper"> -->
 
         <!-- Preloader here -->
-        <div class="boy" id="loader-wrapper">
+        <!-- <div class="boy" id="loader-wrapper">
 
             <div class="preloader" id="loader">
                 <div class="preloader__square"></div>
@@ -45,16 +45,16 @@
                 <div class="preloader__square"></div>
                 <div class="preloader__square"></div>
 
-            </div>
+            </div> -->
 
 
             <!-- <div class="status">Loading<span class="status__dot">.</span><span class="status__dot">.</span><span class="status__dot">.</span></div> -->
-
+<!-- 
             <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
+            <div class="loader-section section-right"></div> -->
 
-        </div>
-        <div class="wrapper preload" id="content">
+        <!-- </div> -->
+        <!-- <div class="wrapper preload" id="content"> -->
             <!-- header starts here -->
             <section class="hero" id="home">
                 <header>
