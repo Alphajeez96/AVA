@@ -258,7 +258,7 @@
                     <!-- screen 1 -->
                     <div class="rows " >
                         <div class="col-md-7" style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/1.png" data-mfp-src="./Assets/screenshot/1.png" alt="">
+                            <img src="./Assets/screenshot/h1.png" data-mfp-src="./Assets/screenshot/h1.png" alt="">
                         </div>
                         <div class="col-md-5 headers"  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>INCREASE YOUR PRODUCTIVITY</h4>
@@ -275,7 +275,7 @@
                         </div>
                         <div class="col-md-3"></div>
                         <div class="col-md-4" style='text-align:center'  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/2.png" data-mfp-src="./Assets/screenshot/2.png" alt="" >
+                            <img src="./Assets/screenshot/h2.png" data-mfp-src="./Assets/screenshot/h2.png" alt="" >
                         </div>
                     </div>
 
@@ -285,7 +285,7 @@
 
                     <div class="rows">
                         <div class="col-md-7" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/3.png" data-mfp-src="./Assets/screenshot/3.png" alt="" >
+                            <img src="./Assets/screenshot/h3.png" data-mfp-src="./Assets/screenshot/h3.png" alt="" >
                         </div>
                         <div class="col-md-5 headers"  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>KEEP RECORS OF YOUR PRODUCTIVITY</h4>
@@ -304,7 +304,7 @@
                         </div>
                         <div class="col-md-3"></div>
                         <div class="col-md-4" style='text-align:center'  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/4.png" data-mfp-src="./Assets/screenshot/4.png" alt="">
+                            <img src="./Assets/screenshot/h4.png" data-mfp-src="./Assets/screenshot/h4.png" alt="">
                         </div>
                     </div>
 
@@ -313,7 +313,7 @@
 
                     <div class="rows">
                         <div class="col-md-7 " style='text-align:center'  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/5.png" data-mfp-src="./Assets/screenshot/5.png" alt="">
+                            <img src="./Assets/screenshot/h5.png" data-mfp-src="./Assets/screenshot/h5.png" alt="">
                         </div>
                         <div class="col-md-5 headers"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                             <h4>GET NOTIFIED WHEN YOU PERFORM IMPULSIVE TASKS</h4>
@@ -333,7 +333,7 @@
                         </div>
                         <div class="col-md-3"></div>
                         <div class="col-md-4" style='text-align:center'  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-                            <img src="./Assets/screenshot/6.png" data-mfp-src="./Assets/screenshot/6.png" alt="">
+                            <img src="./Assets/screenshot/h6.png" data-mfp-src="./Assets/screenshot/h6.png" alt="">
                         </div>
                     </div>
                 </div>
