@@ -113,8 +113,8 @@
                     </div>
             </section>
 
-            <!-- App features section here -->
-            <section class="container">
+            <!-- App features mobile section here -->
+            <section class="container app__features__mobile">
                 <div class="app__features">
                     <div class="caption">
                         <h4>App Features </h4>
@@ -168,6 +168,67 @@
                                     <section>
                                         <div id="trigger__2" class="mt-5 slide__caption"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100"
                             data-aos-anchor-placement="center-bottom">
+                                            <h4>GET NOTIFIED WHEN YOU <br> PERFORM IMPULSIVE TASKS</h4>
+                                            <p>With our Artificial Inteligence, ADHD Virtual Assitant would alert you when you tend to make impulsive behaviours like buying repetitive things.</p>
+                                        </div>
+                                    </section>
+
+                                </article>
+                            </div>
+                   
+                    </main>
+                </section>
+            </section>
+<!-- App features desktop here -->
+
+<section class="container app__features__desktop">
+                <div class="app__features">
+                    <div class="caption">
+                        <h4>App Features </h4>
+                        <p>Awesome features of ADHD Virtual Assistant</p>
+                    </div>
+                </div>
+
+                <section class="scroll">
+                    <main>
+                        <div class="row">
+                            <div class="contents__slide col-md-5 col-lg-5">
+                                <article>
+                                    <section>
+                                        <div id="trigger__1" class="mt-5 slide__caption">
+                                            <h4>INCREASE your <br> Productivity</h4>
+                                            <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day. </p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div id="trigger__1" class="mt-5 slide__caption"  >
+                                        <h4>INCREASE your <br> Productivity</h4>
+                                        <p>With ADHD Virtual Assistant, you can take charge of your whole day, maximizing your already known schedules and routines with our artificial intelligence to help you take charge of your day. </p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div id="trigger__1" class="mt-5 slide__caption"  >
+                                            <h4>GET NOTIFIED WHEN YOU GET <br> DISTRACTED FROM AN ONGOING TASK</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                                rutrum eleifend arcu sit amet hendrerit. Etiam tempor ante ac ipsum
+                                                finibus, at consectetur urna tristique. Nulla nec lacinia velit.</p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div id="trigger__1" class="mt-5 slide__caption">
+                                            <h4> Keep Record of your <br>Productivity </h4>
+                                            <p>ADHD Assistant helps you keep record of yourproductivity and in turn helps suggest ways to improve and milestones you’ve achieved</p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div id="trigger__1" class="mt-5 slide__caption"  >
+                                            <h4>HELPS IN Managing your <br> uniqueness </h4>
+                                            <p>Deriving from your activities and behaviours each day, AVA suggests articles that can help improve a few areas and behaviours that need to be worked on to become a better version of you!</p>
+                                        </div>
+                                    </section>
+
+                                    <section>
+                                        <div id="trigger__2" class="mt-5 slide__caption"  >
                                             <h4>GET NOTIFIED WHEN YOU <br> PERFORM IMPULSIVE TASKS</h4>
                                             <p>With our Artificial Inteligence, ADHD Virtual Assitant would alert you when you tend to make impulsive behaviours like buying repetitive things.</p>
                                         </div>
