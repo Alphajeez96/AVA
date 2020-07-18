@@ -25,7 +25,7 @@ $(function() {
                 Swal.fire({
                     icon: "error",
                     title: "",
-                    text: data,
+                    text: 'check your network connection',
                     type: "error",
                 });
             },
