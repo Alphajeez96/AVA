@@ -8,7 +8,7 @@
             }
             
             .hero {
-                background: url('../Assets/general/Group 321.png');
+                /* background: url('../Assets/general/Group 321.png'); */
                 border-radius: 0px;
                 background-position: center;
                 background-size: cover;
@@ -339,6 +339,21 @@
 } */
             /* MEDIA QUERIES */
             
+            @media screen and (device-width: 360px) {
+                .hero {
+                    /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
+                    background-color: red !important;
+                    /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
+                    /* border-radius: 150px; */
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: auto;
+                    width: 100% !important;
+                    color: #F7F0FA !important;
+                }
+            }
+            
             @media screen and (max-width: 576px) {
                 .img__center {
                     text-align: center !important;
@@ -351,7 +366,6 @@
                 }
                 .hero {
                     /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
-                    /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
                     /* border-radius: 150px; */
                     background-position: center;
                     background-size: cover;
@@ -432,7 +446,7 @@
                     background: white;
                 }
                 .hero {
-                    background-image: url('../Assets/general/Mobile\ background.png')!important;
+                    /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
                     /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
                     background-position: center;
                     background-size: cover;

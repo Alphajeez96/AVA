@@ -265,8 +265,6 @@
         </div>
     </section>
 
-
-
     <!-- Why use section here     -->
     <section class="adhd">
         <div class="container">
