@@ -338,9 +338,9 @@
     top: 400px;
 } */
             /* MEDIA QUERIES */
-            /* @media screen and (device-width: 360px) */
+            /* @media only screen and (max-width: 320px) and (min-width: 414px) {} */
             
-            @media only screen and (max-width: 320px) and (min-width: 414px) {
+            @media screen and (max-width: 450px) {
                 .hero {
                     width: 100%;
                     background-image: url('../Assets/general/Mobile background.png');
@@ -360,6 +360,48 @@
                     flex-direction: column-reverse;
                 }
             }
+            /*             
+            @media screen and (device-width: 375px) {
+                .hero {
+                    width: 100%;
+                    background-image: url('../Assets/general/Mobile background.png');
+                }
+                .small__phone {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                .small__phone img {
+                    display: block !important;
+                    height: 270px;
+                    position: relative;
+                    top: 12px;
+                    margin-top: -15px !important;
+                }
+                .column__reverse {
+                    flex-direction: column-reverse;
+                }
+            }
+            
+            @media screen and (device-width: 360px) {
+                .hero {
+                    width: 100%;
+                    background-image: url('../Assets/general/Mobile background.png');
+                }
+                .small__phone {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                .small__phone img {
+                    display: block !important;
+                    height: 270px;
+                    position: relative;
+                    top: 12px;
+                    margin-top: -15px !important;
+                }
+                .column__reverse {
+                    flex-direction: column-reverse;
+                }
+            } */
             
             @media screen and (max-width: 576px) {
                 .img__center {
