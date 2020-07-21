@@ -342,8 +342,7 @@
             @media screen and (device-width: 360px) {
                 .hero {
                     width: 100%;
-                    background-image: none;
-                    background-color: red !important;
+                    background-image: url('../Assets/general/Mobile background.png');
                 }
                 .small__phone {
                     width: 50%;
