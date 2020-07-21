@@ -359,7 +359,158 @@
                 .column__reverse {
                     flex-direction: column-reverse;
                 }
+                .img__center {
+                    text-align: center !important;
+                }
+                .increase {
+                    flex-direction: column-reverse;
+                }
+                .nav__header {
+                    background: white;
+                }
+                .phone img {
+                    display: none;
+                }
+                .small__phone img {
+                    display: block !important;
+                    margin-top: 60px;
+                    position: relative;
+                    top: 12px
+                }
+                .palm-view-hero h1 {
+                    font-family: 'Spectral', serif;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 26px;
+                    color: #F7F0FA;
+                    line-height: inherit;
+                }
+                .palm-view-hero {
+                    margin-top: 30px;
+                }
+                .palm-view-hero p {
+                    font-family: 'Karla', sans-serif;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #F7F0FA !important;
+                }
+                .p {
+                    padding: 0;
+                }
+                .p p {
+                    text-align: left;
+                    padding: 0;
+                    margin: 0;
+                }
+                .caption h4 {
+                    margin-top: 35px;
+                }
+                .notification h2 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    padding-top: 26px;
+                    padding-bottom: 0px;
+                }
+                #img {
+                    display: none;
+                }
+                .slide__caption h4 {
+                    margin-top: 0px;
+                }
+                .why__use__header {
+                    padding-bottom: 40px;
+                }
+                .footer__credit p {
+                    padding-top: 14px;
+                }
+                .foot__row {
+                    text-align: center;
+                }
+                .app__features__desktop {
+                    display: none !important;
+                }
+                .app__features__mobile {
+                    display: block !important;
+                }
             }
+            /* @media screen and (max-width: 576px) {
+                .img__center {
+                    text-align: center !important;
+                }
+                .increase {
+                    flex-direction: column-reverse;
+                }
+                .nav__header {
+                    background: white;
+                }
+                .phone img {
+                    display: none;
+                }
+                .small__phone img {
+                    display: block !important;
+                    margin-top: 60px;
+                    position: relative;
+                    top: 12px
+                }
+                .palm-view-hero h1 {
+                    font-family: 'Spectral', serif;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 26px;
+                    color: #F7F0FA;
+                    line-height: inherit;
+                }
+                .palm-view-hero {
+                    margin-top: 30px;
+                }
+                .palm-view-hero p {
+                    font-family: 'Karla', sans-serif;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #F7F0FA !important;
+                }
+                .p {
+                    padding: 0;
+                }
+                .p p {
+                    text-align: left;
+                    padding: 0;
+                    margin: 0;
+                }
+                .caption h4 {
+                    margin-top: 35px;
+                }
+                .notification h2 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    padding-top: 26px;
+                    padding-bottom: 0px;
+                }
+                #img {
+                    display: none;
+                }
+                .slide__caption h4 {
+                    margin-top: 0px;
+                }
+                .why__use__header {
+                    padding-bottom: 40px;
+                }
+                .footer__credit p {
+                    padding-top: 14px;
+                }
+                .foot__row {
+                    text-align: center;
+                }
+                .app__features__desktop {
+                    display: none !important;
+                }
+                .app__features__mobile {
+                    display: block !important;
+                }
+            }
+             */
             
             @media screen and (device-width: 768px) {
                 .hero {
@@ -367,14 +518,63 @@
                     /* background-image: url('../Assets/general/Mobile background.png'); */
                 }
                 .palm-view-hero {
-                    margin-top: 40px;
+                    margin-top: 15px;
                 }
                 .phone img {
                     height: 386px;
+                }
+                header {
+                    /* background: white; */
+                }
+                .phone img {
                     position: relative;
-                    bottom: 50px;
+                    bottom: 40px;
+                }
+                .small__phone img {
+                    display: none !important;
                 }
                 .palm-view-hero h1 {
                     font-size: 33px;
+                }
+                .palm-view-hero {
+                    margin-top: 45px;
+                }
+                .p {
+                    padding: 0;
+                }
+                .p p {
+                    text-align: left;
+                    padding: 0;
+                    margin: 0;
+                }
+                .caption h4 {
+                    margin-top: 35px;
+                }
+                .notification h2 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    padding-top: 26px;
+                    padding-bottom: 0px;
+                }
+                #img {
+                    display: none;
+                }
+                .slide__caption h4 {
+                    margin-top: 0px;
+                }
+                .why__use__header {
+                    padding-bottom: 40px;
+                }
+                .footer__credit p {
+                    padding-top: 14px;
+                }
+                .foot__row {
+                    text-align: center;
+                }
+                .app__features__desktop {
+                    display: none !important;
+                }
+                .app__features__mobile {
+                    display: block !important;
                 }
             }
