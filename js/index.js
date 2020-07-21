@@ -36,7 +36,6 @@ $(function() {
         // }
     });
 });
-
 // MAGNIFIC POPUP HERE
 
 $(document).ready(function() {

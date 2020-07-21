@@ -8,7 +8,7 @@
             }
             
             .hero {
-                /* background: url('../Assets/general/Group 321.png'); */
+                background: url('../Assets/general/Group 321.png');
                 border-radius: 0px;
                 background-position: center;
                 background-size: cover;
@@ -341,16 +341,20 @@
             
             @media screen and (device-width: 360px) {
                 .hero {
-                    /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
+                    width: 100%;
+                    background-image: none;
                     background-color: red !important;
-                    /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
-                    /* border-radius: 150px; */
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    height: auto;
-                    width: 100% !important;
-                    color: #F7F0FA !important;
+                }
+                .small__phone {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                .small__phone img {
+                    display: block !important;
+                    height: 270px;
+                    position: relative;
+                    top: 12px;
+                    margin-top: -15px !important;
                 }
             }
             
@@ -363,16 +367,6 @@
                 }
                 .nav__header {
                     background: white;
-                }
-                .hero {
-                    /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
-                    /* border-radius: 150px; */
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    height: auto;
-                    width: 100% !important;
-                    color: #F7F0FA !important;
                 }
                 .phone img {
                     display: none;
@@ -444,16 +438,6 @@
             @media screen and (max-width: 768px) {
                 header {
                     background: white;
-                }
-                .hero {
-                    /* background-image: url('../Assets/general/Mobile\ background.png')!important; */
-                    /* clip-path: polygon(0 0, 100% 0, 100% 95%, 62% 100%); */
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    height: auto;
-                    width: 100% !important;
-                    color: #F7F0FA !important;
                 }
                 .phone img {
                     display: none;
