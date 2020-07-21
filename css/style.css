@@ -306,7 +306,7 @@
                 -ms-flex-wrap: wrap;
                 margin-right: -15px;
                 margin-left: -15px;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
             }
             
             .white-popup {
@@ -354,6 +354,9 @@
                     position: relative;
                     top: 12px;
                     margin-top: -15px !important;
+                }
+                .rows {
+                    display: ;
                 }
             }
             
