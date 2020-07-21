@@ -355,8 +355,8 @@
                     top: 12px;
                     margin-top: -15px !important;
                 }
-                .rows {
-                    display: ;
+                .column__reverse {
+                    flex-direction: column-reverse;
                 }
             }
             
